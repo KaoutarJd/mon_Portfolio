@@ -1,0 +1,62 @@
+body{min-height: 2800px;}
+header{overflow: hidden; background-image: url(../images/image-entete.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;
+     width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center;}
+.container-title{padding: 8%;}
+.title{color: seashell;opacity: 0;}
+.title1{font-size: 5.5em; font-weight: bold;}
+.title2{font-size: 4em; font-weight: bold;}
+.title3{font-size: 2.5em; font-weight: bold;}
+.title4{font-size: 1.5em;font-weight: bold;}
+.title5{font-weight: bold;}
+
+.separator{width: 0; height: 5px; background-color: seashell;}
+
+.title-apropos{z-index: -1; margin-top: -100px; color: #4e164f;}
+.title-competences{z-index: -1; margin-top: -50px; color: #4e164f; display: none;}
+.text-apropos{opacity: 0;}
+
+.underline-apropos{width: 0; height: 1px; background-color: #4e164f;}
+.underline-experience{width: 100px; height: 1px; background-color: #f895e6;}
+.underline-competences{width: 0; height: 1px; background-color: #4e164f; margin-bottom: 50px;}
+
+.img-profile{width: 100%; height: 100%;}
+.parent-to-face{opacity: 0; margin-top: 100px;}
+
+
+.text-presentation{display: none;}
+
+.text-bold{font-weight:900}
+
+.my-color-1{color: #4e164f;}
+.my-color-2{color:#f895e6}
+.my-color-3{color: white;}
+
+.my-background-1{background-color: #4e164f;}
+.my-background-2{background-color: #f895e6;}
+
+.section-experience{background-color:#4e164f ; width: 100%; padding-bottom:40px; padding-top: 20px; display: none;}
+
+.fa-3x{margin: 10px; color: #4e164f;}
+.fa-3x:hover{color:#f895e6 ;}
+
+.text-experience{color: white;}
+.line-experience{border-left: solid 2px white;}
+.margin-top{margin-top: 30px;}
+
+.container-progress{padding:20px 40px 20px 0px;}
+
+.my-icons{font-size: 2.5em; font-weight: bolder; color: #4e164f; margin-top: 5px;}
+.my-icons:hover{color: #f895e6;}
+
+.technologie-evaluation{display: none;}
+
+.background-footer{width: 100%; height: 100vh; padding: 0 20px; display: flex; justify-content: center; align-items: center;
+      background-image: url(../images/background-footer.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
+     opacity: 0; line-height: 50px;}
+
+.footer-c{width: 100%; background-color: #4e164f; margin: 0; padding: 10px;}
+.marge{margin-right: 20px;}
+
+@media(max-width: 991px){
+     .line-experience{border-width: 0; border-top:solid 2px white; ;}
+}
